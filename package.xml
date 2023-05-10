@@ -22,16 +22,18 @@
   <buildtool_depend version_gte="0.5.87">catkin</buildtool_depend>
 
   <build_depend>cpp_common</build_depend>
+  <build_depend>libboost-dev</build_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>roscpp_serialization</build_depend>
   <build_depend>rostest</build_depend>
+  <build_depend>std_msgs</build_depend>
 
   <build_export_depend>libboost-chrono-dev</build_export_depend>
   <build_export_depend>libboost-thread-dev</build_export_depend>
+  <build_export_depend>libboost-dev</build_export_depend>
+  <exec_depend>std_msgs</exec_depend>
 
-  <depend>libboost-dev</depend>
   <depend>roscpp</depend>
-  <depend>std_msgs</depend>
 
   <exec_depend>message_runtime</exec_depend>
   <exec_depend>roslib</exec_depend>
